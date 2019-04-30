@@ -1,0 +1,136 @@
+h1, h5 {
+    text-align: center;
+    text-shadow: 0px 0px 8px black;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: calc(256px + 0.5vw);
+    margin-right: 0.5vw;
+    transition: 0.5s;
+    grid-template-columns: repeat(auto-fill, 225px);
+}
+
+.grid-container > div {
+    transition: 0.2s;
+    width: 200px;
+    margin: 10px;
+    border-color: red;
+    box-shadow: 0px 0px 8px black;
+    cursor: pointer;
+}
+
+.card-img {
+
+    max-width: 200px;
+    
+    height: auto;
+    
+
+}
+
+.card > img {
+    height: 100%;
+}
+
+.loading {
+    width: 200px;
+    margin-left: calc(50% - 100px);
+}
+
+#popout-img {
+    width: 100%;
+}
+
+.alert-link {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.grid-container > div:hover {
+    transition: 0.2s;
+    box-shadow: 0px 0px 8px #00bc8c;
+}
+
+#total {
+   text-align: right;
+   margin-right: 20px;
+}
+
+#alert-modal {
+    display: none;
+}
+
+#header-container {
+    margin-right: 16px;
+    float: right;
+}
+
+#header-container > button {
+    margin-top: 16px;
+    width: 75px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.column-name {
+    width: 300px;
+    line-height: 40px;
+    height: 45px;
+}
+
+.column-number {
+    width: 40px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.column-price {
+    width: 150px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.column-button {
+    width: 180px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.column-button > button{
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+}
+
+.floating-container {
+    position: fixed;
+    float: left;
+    width: 256px;
+    height: auto;
+    top: 176px;
+    bottom: 16px;
+    overflow-y: auto;
+}
+
+.filter-container {
+    margin: 16px;
+}
+
+#add-inventory-btn, #add-ship-btn {
+    width: 40%;
+    margin-left: 30%;
+}
+
+#title-container {
+    height: 120px;
+}
+
+#clear-button, #search-button, #search-field, #clear-all{
+    width: 100%;
+}
