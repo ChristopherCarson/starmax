@@ -34,7 +34,7 @@ function getInventory() {
                 shipData += '<div class="card-header">';
                 shipData += '<h5 class="card-title">' + data[i].name + '</h5>';
                 shipData += '</div>';
-                shipData += '<img class="card-img" src="' + data[i].image_url + '">';
+                shipData += '<img class="card-img" style="max-height:150px;" src="' + data[i].image_url + '">';
                 shipData += '<div class="card-body">' + data[i].cost + ' BTC';
                 shipData += '</div>';
                 shipData += '</div>';

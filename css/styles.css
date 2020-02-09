@@ -21,19 +21,12 @@ h1, h5 {
 }
 
 .card-img {
-    display: block;
-    max-width:200px;
-    max-height:200px;
-    width: auto;
+    max-width: 200px;
     height: auto;
 }
 
 .card > img {
-    display: block;
-    max-width:200px;
-    max-height:200px;
-    width: auto;
-    height: auto;
+    height: 100%;
 }
 
 .loading {
