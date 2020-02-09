@@ -21,12 +21,8 @@ h1, h5 {
 }
 
 .card-img {
-
     max-width: 200px;
-    
-    height: auto;
-    
-
+    height: 200px;
 }
 
 .card > img {
