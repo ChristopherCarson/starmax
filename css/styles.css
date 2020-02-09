@@ -21,12 +21,11 @@ h1, h5 {
 }
 
 .card-img {
-    max-width: 200px;
-    height: 200px;
+    max-height: 200px;
 }
 
 .card > img {
-    height: 200px;
+    height: 100%;
 }
 
 .loading {
