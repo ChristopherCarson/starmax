@@ -22,7 +22,7 @@ h1, h5 {
 
 .card-img {
     max-width: 200px;
-    height: auto;
+    max-height:150px
 }
 
 .card > img {
